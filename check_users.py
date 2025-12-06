@@ -1,4 +1,6 @@
 import sqlite3
+import numpy
+
 
 def get_users():
     DATABASE = 'users.db'
@@ -13,3 +15,4 @@ if __name__ == "__main__":
     users = get_users()
     for user in users:
         print(user)
+
